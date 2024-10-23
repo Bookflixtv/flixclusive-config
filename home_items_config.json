@@ -5,7 +5,7 @@
 	       "type": "all",
 	       "required": false,
 	       "canPaginate": true,
-	       "query": "trending/all/day?language=en-US"
+	       "query": "trending/all/day?language=hu-HU"
 	   }
 	],
 	"movie": [
