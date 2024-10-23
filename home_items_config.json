@@ -3,7 +3,7 @@
 		{
 	       "name": "Trending Now",
 	       "type": "all",
-	       "required": true,
+	       "required": false,
 	       "canPaginate": true,
 	       "query": "trending/all/day?language=en-US"
 	   }
@@ -12,14 +12,14 @@
 		{
 	       "name": "Top Movies Recently",
 	       "type": "movie",
-	       "required": true,
+	       "required": false,
 	       "canPaginate": true,
 	       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&primary_release_date.gte=1990-01-01&vote_count.gte=200"
 	    },
 	    {
 	       "name": "Modern Movie Classics",
 	       "type": "movie",
-	       "required": true,
+	       "required": false,
 	       "canPaginate": true,
 	       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=vote_average.desc&vote_count.gte=300"
 	    },
