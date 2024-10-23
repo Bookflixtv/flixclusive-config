@@ -368,12 +368,6 @@
             "type": "movie",
             "name": "War",
             "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&primary_release_date.gte=1990-01-01&vote_count.gte=200&with_genres=10752"
-        },
-        {
-            "id": 37,
-            "type": "all",
-            "name": "Western",
-            "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&primary_release_date.gte=1990-01-01&first_air_date.gte=1990-01-01&vote_count.gte=200&with_genres=37"
         }
     ],
     "type": [
